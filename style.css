@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 30%;
+    background-color: #000000;
+}
+
+#screenCalc {
+    width: 100%;
+    border: 1px solid;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 23px;
+    overflow-x: auto;
+    background-color: #333333;
+    color: #fff;
+}
+
+.orangeBG {
+    background-color: #fc9f29;
+    color: #fff;
+}
+
+.grayBG {
+    background-color: #a5a5a5;
+    color: #000000;
+}
+
+.darkGray {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#buttons {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+}
+
+#buttons > div > button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: max-content;
+    }
+}
